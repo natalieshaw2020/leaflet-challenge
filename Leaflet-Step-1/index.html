@@ -14,12 +14,23 @@
 
   <!-- Our CSS -->
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+  <!-- Timeline  -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css" />
+
 </head>
 
 <body>
 
   <!-- The div that holds our map -->
-  <div id="mapid"></div>
+  <div id="map"></div>
+
+  <!-- Timeline -->
+  <script type="text/javascript" src="https://cdn.rawgit.com/nezasa/iso8601-js-period/master/iso8601.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leaflet.timeline@1.2.1/dist/leaflet.timeline.min.js"></script>
+
+  <!-- moment -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
 
   <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
